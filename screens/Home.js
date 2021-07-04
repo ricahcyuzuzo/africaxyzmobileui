@@ -17,7 +17,7 @@ const Home = ({navigation}) => {
                 height: 300,
                 width: '100%',
                 backgroundColor: '#3A47AE',
-                borderBottomRightRadius: 50,
+                borderBottomRightRadius: 40,
                 shadowColor: "#29297A",
                 shadowOffset: {
                     width: 0,

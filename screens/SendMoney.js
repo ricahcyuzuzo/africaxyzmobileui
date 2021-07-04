@@ -88,8 +88,8 @@ const styles = StyleSheet.create({
     buttonNumbers: {
         justifyContent: 'center',
         alignItems:'center',
-        width: 55,
-        height: 55,
+        width: 60,
+        height: 60,
         backgroundColor: '#fff', 
         borderRadius: 50,
         shadowColor: "#000",
