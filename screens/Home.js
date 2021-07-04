@@ -28,6 +28,7 @@ const Home = ({navigation}) => {
                 elevation: 40,
                 justifyContent: 'center', 
             }}>
+                <ImageBackground source={Vector} style={{width: '100%'}}>
                 <View style={{
                     display: 'flex',
                     flexDirection: 'row',
@@ -81,8 +82,9 @@ const Home = ({navigation}) => {
                         color: '#fff'
                     }}>Your Balance</Text>
                 </View>
+                </ImageBackground>
             </View>
-
+            
             <View style={{
                 flex: 4,
                 paddingLeft: 30,
@@ -183,7 +185,7 @@ const Home = ({navigation}) => {
                         shadowColor: "#000",
                         shadowOffset: {
                         	width: 0,
-                        	height: 12,
+                        	height: 0,
                         },
                         shadowOpacity: 0.08,
                         shadowRadius: 16.00,
